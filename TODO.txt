@@ -1,0 +1,17 @@
+ - proyecto entero
+    + tracing
+    + evals
+    + añadir otro modelo y cambiar el de groq por chatgpt?
+
+        'qwen2.5:latest',
+        'phi4:latest',
+        'llama3.2:1b',
+        'mistral:latest',
+        'erwan2/DeepSeek-R1-Distill-Qwen-7B:latest',
+        'deepseek-r1:32b',
+        'deepseek-r1:70b'
+
+ - main.py
+    + descripcion de los metodos
+    + cambiar modelo entre router calls?
+    + revisar estructura de messages para verificar su correcta generacion y uso

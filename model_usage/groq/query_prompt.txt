@@ -1,0 +1,2 @@
+You are a helpful assistant that can answer questions about Geography.
+User: {user_input}

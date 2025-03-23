@@ -1,0 +1,34 @@
+{
+    "gemini": [
+        {
+            "name": "testtool1",
+            "description": "Answer any question without context.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "prompt": {"type": "string", "description": "The unchanged prompt that the user provided."}
+                },
+                "required": ["prompt"]
+            }
+        }
+    ],
+    "groq": [
+        {
+            "type": "function",
+            "function": {
+                "name": "testtool1",
+                "description": "Answer any question without context.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "prompt": {
+                            "type": "string",
+                            "description": "The unchanged prompt that the user provided."
+                        }
+                    },
+                    "required": ["prompt"]
+                }
+            }
+        }
+    ]
+}
